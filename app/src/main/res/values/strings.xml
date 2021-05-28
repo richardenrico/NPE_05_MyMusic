@@ -1,13 +1,53 @@
 <resources>
-    <string name="app_name">NPE_05_MyMusic</string>
-    <string name="tvemail">Email</string>
-    <string name="tvpassword">Password</string>
-    <string name="btnsignup">Sign Up</string>
-    <string name="tvhaveanaccount">sudah punya akun? silahkan login disini</string>
-    <string name="btnlogin">Login</string>
-    <string name="tvregister">Register</string>
-    <string name="tvforgotpassword">Forgot Password</string>
-    <string name="tvlogout">Reset Password</string>
-    <string name="btnlogout">Log Out</string>
-    <string name="tvfullname">Full Name</string>
+    <string name="app_name">MyMusic App</string>
+
+    <string name="w_tv1">Dengarkan jutaan lagu.</string>
+    <string name="w_tv2">Gratis di <b>My Music.</b></string>
+    <string name="w_bt1">Daftar Gratis</string>
+    <string name="w_bt2">Lanjutkan dengan nomor HP</string>
+    <string name="w_bt3">Lanjutkan dengan Google</string>
+    <string name="w_tv3">Masuk</string>
+
+    <string name="l_tv1">Login Akun</string>
+    <string name="l_tv2">Email atau nama pengguna</string>
+    <string name="l_tv3">Kata Sandi</string>
+    <string name="l_bt1">Masuk</string>
+
+    <string name="d_tv1">Buat Akun</string>
+    <string name="d_tv2">Pilih Foto</string>
+    <string name="d_tv3">Masukkan Nama</string>
+    <string name="d_tv4">Masukkan Email</string>
+    <string name="d_tv5">Kata Sandi</string>
+    <string name="d_tv6">Daftar</string>
+
+    <string name="m_home">Home</string>
+    <string name="m_search">Search</string>
+    <string name="m_favorite">Favorite</string>
+    <string name="m_profile">Profile</string>
+
+    <string name="h_tv1">Hi</string>
+    <string name="h_tv2">Let play and share a music</string>
+    <string name="h_tv3">Top Rating</string>
+    <string name="h_tv4">Rekomendasi Lagu</string>
+    <string name="h_tv5">Baru Ditambahkan</string>
+
+    <string name="s_tv1">Semua Lagu</string>
+    <string name="s_tv2">Lagu atau Artis</string>
+
+    <string name="f_tv1">Favorite</string>
+
+    <string name="p_tv1">Edit Profile</string>
+    <string name="p_tv2">Lagu</string>
+    <string name="p_tv3">Daftar Laguku</string>
+    <string name="p_tv4">Tambah Lagu</string>
+
+    <string name="u_tv1">Upload Lagu</string>
+    <string name="pe_tv1">Perbaharui Lagu</string>
+    <string name="u_tv2">Pilih Lagu</string>
+    <string name="u_tv3">Add Cover Album</string>
+    <string name="u_tv4">Judul Lagu</string>
+    <string name="u_tv5">Penyanyi Lagu</string>
+    <string name="u_tv6">Genre Lagu</string>
+    <string name="u_bt1">Upload</string>
+
 </resources>
