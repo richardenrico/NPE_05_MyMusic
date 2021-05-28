@@ -9,7 +9,8 @@
         android:roundIcon="@drawable/logo"
         android:supportsRtl="true"
         android:theme="@style/Theme.NPE_05_MyMusic">
-        <activity android:name=".Activities.MainActivity"></activity>
+        <activity android:name=".Activities.ProfileActivity"></activity>
+        <activity android:name=".Activities.MainActivity" />
         <activity android:name=".Activities.RegisterActivity" />
         <activity android:name=".Activities.LoginActivity" />
         <activity android:name=".Activities.WelcomeActivity">

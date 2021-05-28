@@ -25,7 +25,7 @@
     <string name="m_favorite">Favorite</string>
     <string name="m_profile">Profile</string>
 
-    <string name="h_tv1">Hi</string>
+    <string name="h_tv1">Hi, </string>
     <string name="h_tv2">Let play and share a music</string>
     <string name="h_tv3">Top Rating</string>
     <string name="h_tv4">Rekomendasi Lagu</string>
@@ -49,5 +49,7 @@
     <string name="u_tv5">Penyanyi Lagu</string>
     <string name="u_tv6">Genre Lagu</string>
     <string name="u_bt1">Upload</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 </resources>
