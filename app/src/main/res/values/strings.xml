@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">NPE_05_MyMusic</string>
+    <string name="tvemail">Email</string>
+    <string name="tvpassword">Password</string>
+    <string name="btnsignup">Sign Up</string>
+    <string name="tvhaveanaccount">sudah punya akun? silahkan login disini</string>
+    <string name="btnlogin">Login</string>
+    <string name="tvregister">Register</string>
+    <string name="tvforgotpassword">Forgot Password</string>
+    <string name="tvlogout">Reset Password</string>
+    <string name="btnlogout">Log Out</string>
+    <string name="tvfullname">Full Name</string>
 </resources>
