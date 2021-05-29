@@ -9,6 +9,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
+import com.example.npe_05_mymusic.Activities.LoginActivity;
+import com.example.npe_05_mymusic.Activities.UploadActivity;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DataSnapshot;
@@ -22,7 +24,7 @@ public class Home extends AppCompatActivity {
     private FirebaseUser user;
     private DatabaseReference reference;
     private String userID;
-    private Button btnLogout;
+    private Button btnLogout, btnUpload;
     private TextView tvName;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,12 +33,21 @@ public class Home extends AppCompatActivity {
 
         tvName = findViewById(R.id.tvName);
         btnLogout = findViewById(R.id.btnLogOut);
+        btnUpload = findViewById(R.id.btnUpload);
+
+        btnUpload.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Home.this, UploadActivity.class);
+                startActivity(intent);
+            }
+        });
 
         btnLogout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 FirebaseAuth.getInstance().signOut();
-                startActivity(new Intent(Home.this, Login.class));
+                startActivity(new Intent(Home.this, LoginActivity.class));
             }
         });
 

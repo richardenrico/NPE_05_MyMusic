@@ -12,6 +12,12 @@
         android:layout_height="wrap_content"
         android:text="tvName"
         android:id="@+id/tvName"/>
+
+    <Button
+        android:id="@+id/btnUpload"
+        android:text="UPLOAD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
